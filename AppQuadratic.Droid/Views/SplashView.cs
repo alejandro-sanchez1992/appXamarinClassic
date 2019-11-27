@@ -10,6 +10,7 @@ namespace AppQuadratic.Android.Views
         Label = "@string/app_name",
         MainLauncher = true,
         Icon = "@drawable/icon",
+        Theme = "@style/Theme.Splash",
         NoHistory = true,
         ScreenOrientation = ScreenOrientation.Portrait)]
     public class SplashView : MvxSplashScreenActivity<MvxAndroidSetup<App>, App>
