@@ -1,65 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:padding="20dp"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:textSize="24dp"
-            android:text="Value a: " />
-	    <EditText
-    	    android:layout_width="match_parent"
-    	    android:layout_height="wrap_content"
-    	    android:inputType="number|numberDecimal"
-    	    android:textSize="24dp"
-    	    android:gravity="right"
-    	    local:MvxBind="Text ValueA" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:textSize="24dp"
-            android:text="Value b: " />
-	    <EditText
-    	    android:layout_width="match_parent"
-    	    android:layout_height="wrap_content"
-    	    android:inputType="number|numberDecimal"
-    	    android:textSize="24dp"
-    	    android:gravity="right"
-    	    local:MvxBind="Text ValueB" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:textSize="24dp"
-            android:text="Value c: " />
-	    <EditText
-    	    android:layout_width="match_parent"
-    	    android:layout_height="wrap_content"
-    	    android:inputType="number|numberDecimal"
-    	    android:textSize="24dp"
-    	    android:gravity="right"
-    	    local:MvxBind="Text ValueC" />
-    </LinearLayout>
-
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:local="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:padding="20dp"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="24dp"
+    	android:text="Value a:" />
+	<EditText
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="number|numberDecimal"
+    	android:textSize="24dp"
+    	android:gravity="right"
+    	local:MvxBind="Text ValueA" />
+	<TextView
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="24dp"
+    	android:text="Value b:" />
+	<EditText
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="number|numberDecimal"
+    	android:textSize="24dp"
+    	android:gravity="right"
+    	local:MvxBind="Text ValueB" />
+	<TextView
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="24dp"
+    	android:text="Value c:" />
+	<EditText
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:inputType="number|numberDecimal"
+    	android:textSize="24dp"
+    	android:gravity="right"
+    	local:MvxBind="Text ValueC" />
 	<View
 		android:layout_width="wrap_content"
 		android:layout_height="1dp"
